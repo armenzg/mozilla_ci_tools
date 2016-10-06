@@ -661,7 +661,7 @@ def manual_backfill(revision, buildername, dry_run=False):
                  buildername,
                  revlist[-1],
                  revlist[0],
-    ))
+             ))
 
     filtered_revlist = revlist
     # Talos jobs are generally always green and we want to fill in all holes in a range
